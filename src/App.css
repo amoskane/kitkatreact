@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Carrois+Gothic|Raleway:300");
+@import url("https://github.com/csswizardry/csswizardry-grids/blob/master/csswizardry-grids.scss");
+.App {
+  text-align: center;
+  font-family: 'Carrois Gothic', sans-serif; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px; }
+
+.App-header {
+  background-color: #728FCE;
+  height: 150px;
+  padding: 20px;
+  color: white; }
+
+.App-intro {
+  font-size: large; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
